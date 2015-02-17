@@ -1,1 +1,4 @@
 *.pro.user
+libopencvblobs-*/
+*.deb
+libopencvblobs_*.orig.tar.xz
