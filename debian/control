@@ -1,0 +1,27 @@
+Source: libopencvblobs
+Priority: optional
+Maintainer: Domingo Noriega <domingo@cirle.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Section: libs
+Homepage: http://cirle.com
+#Vcs-Git: git://git.debian.org/collab-maint/libtorsion.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/libtorsion.git;a=summary
+
+Package: libopencvblobs-dev
+Section: libdevel
+Architecture: any
+Depends: libopencvblobs (= ${binary:Version})
+Description: OpenCVBlobsLib is a library written in C++ on the 
+ base of cvblobslib. It allows for labelling, filling,
+ filtering, gathering information when dealing with "zones"
+ with homogeneous features in an image.
+
+Package: libopencvblobs
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: OpenCVBlobsLib is a library written in C++ on the 
+ base of cvblobslib. It allows for labelling, filling,
+ filtering, gathering information when dealing with "zones"
+ with homogeneous features in an image.
