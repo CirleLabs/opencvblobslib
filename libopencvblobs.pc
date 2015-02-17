@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/opencvblobs
+
+Name: libopencvblobs
+Description: Open CV Blobs library
+Version: 1.0.0
+Libs: -L${libdir} -lopencvblobs
+Cflags: -I${includedir}

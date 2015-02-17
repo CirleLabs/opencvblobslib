@@ -1,1 +1,2 @@
 lib*.so* usr/lib
+lib*.pc usr/pkgconfig
