@@ -6,6 +6,10 @@ LIBPROJECTNAME=opencvblobs
 LIBNAME=lib$LIBPROJECTNAME
 TARBALLPATH=${LIBNAME}-${LIBVERSION}
 
+#clean up
+rm -r ${LIBNAME}-*
+rm -r ${LIBNAME}_*
+
 #build tarball
 mkdir -p $TARBALLPATH/src
 cp src/* $TARBALLPATH/src/
